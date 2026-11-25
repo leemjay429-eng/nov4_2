@@ -109,9 +109,9 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
 /* 재생 */
 .contents_div .jgtr-hero--play .jgtr-bg{animation:jgtrBg 1.5s cubic-bezier(.16,1,.3,1) 0s forwards}
 .contents_div .jgtr-hero--play .jgtr-rise{animation:jgtrRise .9s cubic-bezier(.16,1,.3,1) forwards}
-.contents_div .jgtr-hero--play .jgtr-map{animation:jgtrMap 1.1s cubic-bezier(.16,1,.3,1) .35s forwards}
-.contents_div .jgtr-hero--play .jgtr-bg2{animation:jgtrFade .5s ease 1.85s forwards,jgtrBeamBg 3s ease-in-out 2.4s infinite}
-.contents_div .jgtr-hero--play .jgtr-laser{animation:jgtrHide .01s linear 2.35s forwards}
+.contents_div .jgtr-hero--play .jgtr-map{animation:jgtrMap 1.4s cubic-bezier(.16,1,.3,1) .35s forwards}
+.contents_div .jgtr-hero--play .jgtr-bg2{animation:jgtrFade .8s ease 1.85s forwards,jgtrBeamBg 3s ease-in-out 2.7s infinite}
+.contents_div .jgtr-hero--play .jgtr-laser{animation:jgtrHide .01s linear 2.65s forwards}
 .contents_div .jgtr-hero--play .jgtr-ln{animation:jgtrDraw var(--jgtrDu) cubic-bezier(.5,0,.2,1) var(--jgtrDl) forwards}
 .contents_div .jgtr-hero--play .jgtr-float{animation:jgtrFloat var(--jgtrFd) ease-in-out var(--jgtrTd) infinite}
 .contents_div .jgtr-hero--play .jgtr-icon{animation:jgtrIcon .8s cubic-bezier(.16,1,.3,1) var(--jgtrIdl) forwards}
@@ -259,7 +259,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   position:absolute; z-index:0; left:50%; top:11.25cqi; transform:translateX(-50%);
   font-family:'Paperozi','Pretendard',sans-serif; font-size:30.75cqi; font-weight:800;
   line-height:1; letter-spacing:-0.02em; white-space:nowrap;
-  color:#143f78; opacity:.035; pointer-events:none; user-select:none;
+  color:#143f78; opacity:.045; pointer-events:none; user-select:none;
 }
 
 /* S2 현황 + 좌측 이미지 */
@@ -436,7 +436,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-rv-on .ota-num::before{ transform:scaleY(0); transform-origin:50% 0; }
 
   .contents_div .ota-s3 .ota-h2{ margin-top:9px; }
-  .contents_div .ota-statrow{ grid-template-columns:1fr; gap:20px; margin-bottom:28px; }
+  .contents_div .ota-statrow{ grid-template-columns:1fr; gap:20px; margin-bottom:20px; }
   .contents_div .ota-statrow-img{ width:100%; margin:0; }
   .contents_div .ota-stat{ gap:28px; margin-bottom:28px; }
   .contents_div .ota-stat-it{ padding:22px 0; }
@@ -456,6 +456,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-svc-it{ grid-template-columns:1fr; gap:10px; padding:22px 0; }
   .contents_div .ota-chip{ height:auto; padding:0; margin:6px 0 0; background:none; border-radius:0; line-height:1.35; }
 
+  .contents_div .ota-s4::before{ left:-10%; width:120%; -webkit-mask-image:linear-gradient(to bottom, #000 60%, transparent); mask-image:linear-gradient(to bottom, #000 60%, transparent); }
   .contents_div .ota-ppl-it{ grid-template-columns:1fr; gap:6px; padding:20px 0; }
   .contents_div .ota-ppl-it .ota-h3{ display:flex; align-items:center; gap:6px; }
   .contents_div .ota-ppl-it .ota-h3::before{ content:''; flex:0 0 auto; width:1em; height:1em; background:var(--c-baby); -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.8'/%3E%3C/svg%3E") center / contain no-repeat; mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.8'/%3E%3C/svg%3E") center / contain no-repeat; }
