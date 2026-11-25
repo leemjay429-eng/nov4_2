@@ -103,7 +103,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
 .contents_div .jgtr-hero--ready .jgtr-map{opacity:0;transform:translateY(3%) scale(.97);transform-origin:50% 70%}
 .contents_div .jgtr-hero--ready .jgtr-icon{opacity:0;transform:translateY(1.5%) scale(.9)}
 
-.contents_div .jgtr-shine{pointer-events:none;background:linear-gradient(90deg,rgba(255,255,255,0) 25%,rgba(255,255,255,.3) 50%,rgba(255,255,255,0) 75%) no-repeat;background-size:30% 100%;background-position:0 0}
+.contents_div .jgtr-shine{pointer-events:none;background:linear-gradient(98deg,rgba(255,255,255,0) 25%,rgba(255,255,255,.3) 50%,rgba(255,255,255,0) 75%) no-repeat;background-size:30% 100%;background-position:0 0}
 .contents_div .jgtr-hero--play .jgtr-shine{animation:jgtrShine 3.6s ease-in-out 1.2s infinite}
 
 /* 재생 */
@@ -434,6 +434,8 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-num-val{ flex:0 0 auto; width:3.1em; font-size:calc(var(--fs-h2) - 3px); }
   .contents_div .ota-num-txt{ margin-top:0; font-size:var(--fs-lead); font-weight:500; }
   .contents_div .ota-rv-on .ota-num::before{ transform:scaleY(0); transform-origin:50% 0; }
+  .contents_div .jgtr-hero--play .jgtr-rise--num{ animation:jgtrNum 1.1s linear .9s forwards,jgtrNumPulseMo 3.2s ease-in-out 2s infinite; }
+  @keyframes jgtrNumPulseMo{ 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.045); } }
 
   .contents_div .ota-s3 .ota-h2{ margin-top:9px; }
   .contents_div .ota-statrow{ grid-template-columns:1fr; gap:20px; margin-bottom:20px; }
