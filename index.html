@@ -477,7 +477,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-road > li{ padding:13px 0 13px 16px; }
   .contents_div .ota-road > li::before{ top:calc(13px + var(--fs-body) * 0.25); }
 
-  .contents_div .ota-fut{ grid-template-columns:1fr 1fr; background:linear-gradient(to right, rgba(240,122,36,0) 0%, rgba(240,122,36,.16) 7%, rgba(240,122,36,.16) 93%, rgba(240,122,36,0) 100%); }
+  .contents_div .ota-fut{ grid-template-columns:1fr 1fr; background:linear-gradient(to right, rgba(240,122,36,0) 0%, rgba(240,122,36,.04) 1.5%, rgba(240,122,36,.08) 3%, rgba(240,122,36,.115) 4.5%, rgba(240,122,36,.145) 6%, rgba(240,122,36,.16) 7.5%, rgba(240,122,36,.16) 92.5%, rgba(240,122,36,.145) 94%, rgba(240,122,36,.115) 95.5%, rgba(240,122,36,.08) 97%, rgba(240,122,36,.04) 98.5%, rgba(240,122,36,0) 100%); }
   .contents_div .ota-fut > li{ padding:22px 8px; }
   .contents_div .ota-fut > li:nth-child(3){ border-left:0; }
   .contents_div .ota-fut > li:nth-child(n+3){ border-top:1px solid rgba(20,63,120,.25); }
@@ -504,6 +504,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-br--m420,
   .contents_div .ota-br--m351{ display:inline; }
   .contents_div .ota-ft-l{ display:inline; }
+  .contents_div .ota-foot-title{ font-size:min(calc(var(--fs-foot) * 0.8065 + 1.5px), calc((100cqi - 2 * var(--gut)) / 17.5)); }
   /* S5 분할 배경 1.2배: 위는 좌측 기준(오른쪽 잘림), 아래는 우측 기준(왼쪽 잘림) */
   .contents_div .ota-s5::before,
   .contents_div .ota-s5::after{ height:min(50%, calc(120cqi * var(--s5r, 1) / 2)); background-size:120% auto; }
