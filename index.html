@@ -471,11 +471,13 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-s5::before{ inset:auto; left:0; right:0; top:0; background-position:center top; }
   .contents_div .ota-s5::after{ bottom:0; background-position:center bottom; }
   .contents_div .ota-grp + .ota-grp{ padding-top:36px; }
+  .contents_div .ota-s5{ --lb-h:23px; --lb-px:10px; --fs-label:11px; --fw-label:600; }
+  .contents_div .ota-s5 .ota-lb{ color:#0b2a55; }
   .contents_div .ota-row{ gap:10px; padding:13px 0; }
   .contents_div .ota-road > li{ padding:13px 0 13px 16px; }
   .contents_div .ota-road > li::before{ top:calc(13px + var(--fs-body) * 0.25); }
 
-  .contents_div .ota-fut{ grid-template-columns:1fr 1fr; }
+  .contents_div .ota-fut{ grid-template-columns:1fr 1fr; background:linear-gradient(to right, rgba(240,122,36,0) 0%, rgba(240,122,36,.16) 7%, rgba(240,122,36,.16) 93%, rgba(240,122,36,0) 100%); }
   .contents_div .ota-fut > li{ padding:22px 8px; }
   .contents_div .ota-fut > li:nth-child(3){ border-left:0; }
   .contents_div .ota-fut > li:nth-child(n+3){ border-top:1px solid rgba(20,63,120,.25); }
@@ -501,6 +503,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   .contents_div .ota-br--mo-wide{ display:none; }
   .contents_div .ota-br--m420,
   .contents_div .ota-br--m351{ display:inline; }
+  .contents_div .ota-ft-l{ display:inline; }
   /* S5 분할 배경 1.2배: 위는 좌측 기준(오른쪽 잘림), 아래는 우측 기준(왼쪽 잘림) */
   .contents_div .ota-s5::before,
   .contents_div .ota-s5::after{ height:min(50%, calc(120cqi * var(--s5r, 1) / 2)); background-size:120% auto; }
@@ -880,7 +883,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   <!-- 아웃트로 · 푸터 -->
   <footer class="ota-sec ota-outro">
     <p class="ota-outro-txt">광주와 전남이 교통으로 연결될 때,<br>통합의 효과를 일상에서 제대로 실감할 수 있을 거예요.</p>
-    <p class="ota-foot-title"><span class="ota-ft-l">전남광주가 하나의 교통생활권으로 연결되는 그날,</span> <span class="ota-ft-l">달라진 전남광주를 기대하며 지켜봐 주세요!</span></p>
+    <p class="ota-foot-title"><span class="ota-ft-l">전남광주가 하나의 교통생활권으로<span class="ota-br ota-br--m420"></span> 연결되는 그날,</span> <span class="ota-ft-l">달라진 전남광주를 기대하며<span class="ota-br ota-br--m420"></span> 지켜봐 주세요!</span></p>
     <div class="ota-foot">
       <ul class="ota-tags" aria-label="관련 태그">
         <li>#전남광주통합특별시</li>
