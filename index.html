@@ -19,6 +19,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
   }catch(e){}
 })();
 </script>
+<link rel="preload" as="image" href="img/히어로배경.webp" fetchpriority="high">
 <div class="contents_div">
 <style>
 @font-face{font-family:'Pretendard';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');font-weight:100;font-display:swap}
@@ -547,7 +548,7 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
     <!-- 히어로배경2 (레이저 전체 : 선 그리기 끝난 뒤 깔림 + 숨쉬기) -->
     <img class="jgtr-layer jgtr-bg2" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block"
         src="img/히어로배경2.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="low" loading="eager">
 
     <!-- 히어로배경2 : 레이저 선 따라 그리기 (배경2 원본을 선 모양 마스크로 드러냄) -->
     <svg class="jgtr-laser" viewBox="0 0 1600 1550" aria-hidden="true" focusable="false" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block">
@@ -610,39 +611,39 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(48% 0 0 0)">
       <img class="jgtr-layer jgtr-map" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
 
     <!-- 히어로아이콘 : 기차 -->
     <div class="jgtr-clip jgtr-float" style="--jgtrTd:.7s;--jgtrFd:3.2s;position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(54.6% 77.31% 29.1% 8.38%)">
       <img class="jgtr-layer jgtr-icon jgtr-icon--train" style="--jgtrIdl:.7s;position:absolute;top:0;left:0;width:100%;height:auto;display:block;transform-origin:15.53% 63.55%"
         src="img/히어로아이콘.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 히어로아이콘 : 버스 -->
     <div class="jgtr-clip jgtr-float" style="--jgtrTd:.82s;--jgtrFd:2.8s;position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(45% 11.19% 38.71% 74.56%)">
       <img class="jgtr-layer jgtr-icon jgtr-icon--bus" style="--jgtrIdl:.82s;position:absolute;top:0;left:0;width:100%;height:auto;display:block;transform-origin:81.69% 53.94%"
         src="img/히어로아이콘.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 히어로아이콘 : 도로 -->
     <div class="jgtr-clip jgtr-float" style="--jgtrTd:.94s;--jgtrFd:3.5s;position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(68.3% 5.56% 15.42% 80.13%)">
       <img class="jgtr-layer jgtr-icon jgtr-icon--road" style="--jgtrIdl:.94s;position:absolute;top:0;left:0;width:100%;height:auto;display:block;transform-origin:87.28% 77.23%"
         src="img/히어로아이콘.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 히어로아이콘 : 10·30·60 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(63.42% 30.63% 26.65% 33.75%);transform:translateY(-0.903%)">
       <img class="jgtr-layer jgtr-rise jgtr-rise--num" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;transform-origin:51.56% 68.39%;clip-path:inset(64.19% 33.13% 27.42% 36.25%)"
         src="img/히어로아이콘.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
 
     <!-- 히어로텍스트_지도 : 키커 (마스크 리빌) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(7.74% 0 85.29% 0)">
       <img class="jgtr-layer jgtr-kick" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block"
         src="img/히어로텍스트_지도.webp"
-        alt="이동은 편리하게, 생활은 더 가깝게. 연결을 넘어 하나의 생활권으로 10·30·60" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="이동은 편리하게, 생활은 더 가깝게. 연결을 넘어 하나의 생활권으로 10·30·60" width="1600" height="1550" loading="eager">
       <div class="jgtr-shine" aria-hidden="true" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;clip-path:inset(8.32% 27.125% 85.74% 27.375% round 2.84% / 2.94%)"></div>
     </div>
 
@@ -650,92 +651,92 @@ if(location.protocol==='file:'||location.hostname.indexOf('github.io')>-1){
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 26.000% 68.903% 25.875%)">
       <img class="jgtr-layer jgtr-full" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 1줄 글자 1 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 64.750% 68.903% 25.875%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(19.355% 64.750% 68.903% 25.875%);--jgtrDl:0.20s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 1줄 글자 2 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 55.562% 68.903% 35.250%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(19.355% 55.562% 68.903% 35.250%);--jgtrDl:0.26s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 1줄 글자 3 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 45.438% 68.903% 44.438%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(19.355% 45.438% 68.903% 44.438%);--jgtrDl:0.32s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 1줄 글자 4 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 35.406% 68.903% 54.562%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(19.355% 35.406% 68.903% 54.562%);--jgtrDl:0.38s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 1줄 글자 5 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(19.355% 26.000% 68.903% 64.594%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(19.355% 26.000% 68.903% 64.594%);--jgtrDl:0.44s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
 
     <!-- 히어로텍스트_지도 : 메인 2줄 전체 (글자 모션 끝난 뒤 이음새 덮기) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 12.375% 55.484% 12.312%)">
       <img class="jgtr-layer jgtr-full" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 1 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 78.031% 55.484% 12.312%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 78.031% 55.484% 12.312%);--jgtrDl:0.45s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 2 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 69.062% 55.484% 21.969%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 69.062% 55.484% 21.969%);--jgtrDl:0.50s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 3 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 59.281% 55.484% 30.938%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 59.281% 55.484% 30.938%);--jgtrDl:0.55s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 4 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 48.906% 55.484% 40.719%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 48.906% 55.484% 40.719%);--jgtrDl:0.60s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 5 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 39.562% 55.484% 51.094%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 39.562% 55.484% 51.094%);--jgtrDl:0.65s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 6 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 30.812% 55.484% 60.438%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 30.812% 55.484% 60.438%);--jgtrDl:0.70s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 7 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 21.750% 55.484% 69.188%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 21.750% 55.484% 69.188%);--jgtrDl:0.75s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
     <!-- 메인 2줄 글자 8 (마스크 라이즈) -->
     <div class="jgtr-clip" style="position:absolute;top:0;left:0;width:100%;height:100%;clip-path:inset(32.387% 12.375% 55.484% 78.250%)">
       <img class="jgtr-layer jgtr-ch" style="position:absolute;top:0;left:0;width:100%;height:auto;display:block;clip-path:inset(32.387% 12.375% 55.484% 78.250%);--jgtrDl:0.80s"
         src="img/히어로텍스트_지도.webp"
-        alt="" aria-hidden="true" width="1600" height="1550" fetchpriority="high" loading="eager">
+        alt="" aria-hidden="true" width="1600" height="1550" loading="eager">
     </div>
 
   </div>
